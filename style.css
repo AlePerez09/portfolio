@@ -1,19 +1,57 @@
-body {
+body{
+
+min-height: 100vh;
 margin: 0;
 padding: 0;
-background-color: #000000; 
+background-color: rgb(19, 18, 18);
 color: white;
 font-family: Arial, sans-serif;
 }
 
 
-header, footer {
+
+header, footer{
 text-align: center;
 padding: 1rem;
 }
 
+.nav-list{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
 
-main {
+.nav-list li{
+    
+    margin-right: 30px;
+}
+
+.nav-list li a{
+    text-align: center;
+    color:gray;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-list li a:hover{
+    color: Chartreuse;
+}
+
+main{
 text-align: center;
 margin-top: 2rem;
+}
+
+footer{
+    
+    position: fixed;
+    bottom: 0;
+    width: 190%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white
+    
+
 }
